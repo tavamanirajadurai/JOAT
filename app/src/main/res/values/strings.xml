@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">JOAT</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_tab2">tab2</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_carpentary">Carpentary</string>
+    <string name="title_activity_plumbing">Plumbing</string>
+    <string name="title_activity_maisonary">Maisonary</string>
+    <string name="title_activity_electrical">Electrical</string>
+    <string name="title_activity_map">Map</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_maps_markers">Map</string>
+
+</resources>

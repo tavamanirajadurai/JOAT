@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "301832846387",
+    "firebase_url": "https://joat-69a5f.firebaseio.com",
+    "project_id": "joat-69a5f",
+    "storage_bucket": "joat-69a5f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:301832846387:android:2b6fefdaab3031fc817746",
+        "android_client_info": {
+          "package_name": "com.example.rajad.joat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "301832846387-fc2cipjui21mijrjnt122akf2oc6tssj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rajad.joat",
+            "certificate_hash": "02ac1c9228718a99d1a434608ac8b18a3217cda2"
+          }
+        },
+        {
+          "client_id": "301832846387-masae5q74svkn3jin0iastaptkmshvpj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUFE9Mz33G2efpRFpJaQQw3nIgUc8k3C8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "301832846387-masae5q74svkn3jin0iastaptkmshvpj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

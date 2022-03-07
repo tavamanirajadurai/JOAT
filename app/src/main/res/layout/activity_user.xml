@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_user"
+    android:layout_width="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:context="com.example.rajad.joat.User">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:id="@+id/name"
+        android:hint="  name:"
+        android:textColorHint="@android:color/background_light"
+        android:background="@drawable/draw"
+        android:inputType="text"
+        android:textColor="@android:color/background_light"
+        android:layout_marginTop="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:id="@+id/phno"
+        android:hint="  Mobile number:"
+        android:textColorHint="@android:color/background_light"
+        android:background="@drawable/draw"
+        android:inputType="text"
+        android:textColor="@android:color/background_light"
+        android:layout_marginTop="100dp"
+        android:layout_below="@+id/name"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:id="@+id/email"
+        android:hint="  Email:"
+        android:textColorHint="@android:color/background_light"
+        android:background="@drawable/draw"
+        android:inputType="text"
+        android:textColor="@android:color/background_light"
+        android:layout_below="@+id/name"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="13dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:id="@+id/address"
+        android:hint="  Address:"
+        android:textColorHint="@android:color/background_light"
+        android:background="@drawable/draw"
+        android:inputType="text"
+        android:textColor="@android:color/background_light"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/phno"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="TRACK LOCATION"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/address"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/cardview_light_background"
+        android:layout_marginTop="28dp"
+        android:background="@color/colorAccent"
+        android:id="@+id/track" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="90dp"
+        android:background="@drawable/splashy"
+        android:layout_below="@+id/track"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

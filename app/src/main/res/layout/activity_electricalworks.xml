@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_electricalworks"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mount"
+    tools:context="com.example.rajad.joat.Electricalworks">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:padding="20dp"
+        android:background="@color/colorAccent">
+
+
+        <ImageView
+            android:layout_width="150dp"
+            app:srcCompat="@drawable/bulb"
+            android:id="@+id/imageView4"
+            android:layout_height="150dp"
+            android:layout_above="@+id/textView3"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"
+            android:text="ELECTRICAL"
+            android:textColor="#22a6a6"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textSize="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+    <ListView
+        android:id = "@+id/mobile_list4"
+        android:layout_width = "wrap_content"
+        android:layout_height = "match_parent"
+        android:scrollbarStyle="outsideOverlay"
+        android:divider = "#9ee7d7"
+        android:dividerHeight = "15dp"
+        android:footerDividersEnabled = "false"
+        android:headerDividersEnabled = "false"
+        />
+
+
+</LinearLayout>
